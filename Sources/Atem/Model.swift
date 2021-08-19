@@ -6,7 +6,7 @@
 //
 
 /// Atem model number
-public enum Model: UInt8 {
+public enum Model: UInt8, Codable {
 	/// Television studio
 	case tvStudio = 1
 	case oneME
