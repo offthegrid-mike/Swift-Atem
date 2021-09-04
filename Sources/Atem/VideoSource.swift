@@ -8,7 +8,7 @@
 import Foundation
 
 /// A unique identifier for a video source of an ATEM switcher
-public enum VideoSource: RawRepresentable {
+public enum VideoSource: RawRepresentable, Codable {
 	public typealias RawValue = UInt16
 	
 	case black

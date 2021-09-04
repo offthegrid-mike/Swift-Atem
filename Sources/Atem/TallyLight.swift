@@ -12,7 +12,7 @@ import Foundation
 ///  - `.program`
 ///  - `.preview`
 ///  - both `.program` & `.preview`
-public struct TallyLight: OptionSet, CustomDebugStringConvertible {
+public struct TallyLight: OptionSet, CustomDebugStringConvertible, Codable {
 	public let rawValue: UInt8
 	
 	public init(rawValue: UInt8) {
